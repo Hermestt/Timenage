@@ -1,0 +1,22 @@
+{
+  "name": "timenage",
+  "version": "1.0.0",
+  "description": "First commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startClient": "cd client && npm start",
+    "startServer": "cd server && npm run start:watch",
+    "start": "concurrently \"npm run startClient\" \"npm run startServer\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hermestt/timenage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hermestt/timenage/issues"
+  },
+  "homepage": "https://github.com/Hermestt/timenage#readme"
+}
