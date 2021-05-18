@@ -14,7 +14,8 @@ async function handleAuth(req: Request, res: Response) {
 
 	res.status(200).send({
 		success: true,
-		message: `Welcome ${user.firstName} ${user.lastName}`, // improve the interface to have fullName prop?!
+		message: `Welcome ${user.firstName} ${user.lastName}`,
+		userID: user.id, // improve the interface to have fullName prop?!
 	});
 }
 

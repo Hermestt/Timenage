@@ -19,7 +19,7 @@ export default function Login() {
 			);
 			if (response.data.success) {
 				alert("Logged in");
-				history.push("/dashboard");
+				history.push("/home");
 			}
 		} catch (error) {
 			alert("Login failed, bad credentials");
